@@ -600,13 +600,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  26.85,  26.85 }
-    #define DEFAULT_Ki_LIST {   2.82,   2.82 }
-    #define DEFAULT_Kd_LIST {  63.95,  63.95 }
+    #define DEFAULT_Kp_LIST {  24.76,  24.76 }
+    #define DEFAULT_Ki_LIST {   2.46,   2.46 }
+    #define DEFAULT_Kd_LIST {  62.39,  62.39 }
   #else
-    #define DEFAULT_Kp  26.85
-    #define DEFAULT_Ki   2.82
-    #define DEFAULT_Kd  63.95
+    #define DEFAULT_Kp  24.76
+    #define DEFAULT_Ki  2.46
+    #define DEFAULT_Kd  62.39
   #endif
 #endif // PIDTEMP
 
@@ -645,9 +645,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 149.31
-  #define DEFAULT_bedKi 29.16
-  #define DEFAULT_bedKd 509.66
+  #define DEFAULT_bedKp 128.72
+  #define DEFAULT_bedKi 23.32
+  #define DEFAULT_bedKd 473.68
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -930,7 +930,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 103 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 97.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
