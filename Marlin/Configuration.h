@@ -1860,31 +1860,31 @@
 //
 #define PREHEAT_1_LABEL       "PLA 190c"
 #define PREHEAT_1_TEMP_HOTEND 190
-#define PREHEAT_1_TEMP_BED     65
+#define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PLA 200c"
 #define PREHEAT_2_TEMP_HOTEND 200
-#define PREHEAT_2_TEMP_BED     65
+#define PREHEAT_2_TEMP_BED     60
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "PLA 210c"
 #define PREHEAT_3_TEMP_HOTEND 210
-#define PREHEAT_3_TEMP_BED     65
+#define PREHEAT_3_TEMP_BED     60
 #define PREHEAT_3_TEMP_CHAMBER 35
 #define PREHEAT_3_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_4_LABEL       "PLA 220c"
 #define PREHEAT_4_TEMP_HOTEND 220
-#define PREHEAT_4_TEMP_BED     65
+#define PREHEAT_4_TEMP_BED     60
 #define PREHEAT_4_TEMP_CHAMBER 35
 #define PREHEAT_4_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_5_LABEL       "PLA 230c"
 #define PREHEAT_5_TEMP_HOTEND 230
-#define PREHEAT_5_TEMP_BED     65
+#define PREHEAT_5_TEMP_BED     60
 #define PREHEAT_5_TEMP_CHAMBER 35
 #define PREHEAT_5_FAN_SPEED   255 // Value from 0 to 255
 
