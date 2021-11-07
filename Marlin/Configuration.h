@@ -600,13 +600,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  24.76,  24.76 }
-    #define DEFAULT_Ki_LIST {   2.46,   2.46 }
-    #define DEFAULT_Kd_LIST {  62.39,  62.39 }
+    #define DEFAULT_Kp_LIST {  24.14,  24.14 }
+    #define DEFAULT_Ki_LIST {   2.30,   2.30 }
+    #define DEFAULT_Kd_LIST {  63.25,  63.25 }
   #else
-    #define DEFAULT_Kp  24.76
-    #define DEFAULT_Ki  2.46
-    #define DEFAULT_Kd  62.39
+    #define DEFAULT_Kp  24.14
+    #define DEFAULT_Ki  2.30
+    #define DEFAULT_Kd  63.25
   #endif
 #endif // PIDTEMP
 
