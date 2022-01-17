@@ -1381,15 +1381,15 @@
 // @section machine
 
 // The size of the printable area
-#define X_BED_SIZE 235
-#define Y_BED_SIZE 235
+#define X_BED_SIZE 232            // Physical bed is 235x235, but X endstop triggers over the bed, around 3mm from the left.
+#define Y_BED_SIZE 235            // Y endstop is off the bed, so the entire 235mm is usable in this dimension.
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS 3
-#define Y_MIN_POS -1
+#define X_MIN_POS 0
+#define Y_MIN_POS -2
 #define Z_MIN_POS 0
 #define X_MAX_POS 245
-#define Y_MAX_POS 236
+#define Y_MAX_POS 237
 #define Z_MAX_POS 250
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
