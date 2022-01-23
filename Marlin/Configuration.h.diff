@@ -80,6 +80,10 @@
 < #define EXTRUDE_MAXLENGTH 200
 ---
 > #define EXTRUDE_MAXLENGTH 500
+906c906
+< //#define DETECT_BROKEN_ENDSTOP
+---
+> #define DETECT_BROKEN_ENDSTOP
 933c933
 < #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
 ---
@@ -154,6 +158,14 @@
 ---
 >   #define MESH_INSET 10             // Set Mesh bounds as an inset region of the bed
 >   #define GRID_MAX_POINTS_X 9       // Don't use more than 15 points per axis, implementation limited.
+1654c1654
+<   //#define UBL_HILBERT_CURVE       // Use Hilbert distribution for less travel when probing multiple points
+---
+>   #define UBL_HILBERT_CURVE         // Use Hilbert distribution for less travel when probing multiple points
+1662c1662
+<   //#define UBL_MESH_WIZARD         // Run several commands in a row to get a complete mesh
+---
+>   #define UBL_MESH_WIZARD           // Run several commands in a row to get a complete mesh
 1752c1752
 < //#define Z_SAFE_HOMING
 ---
