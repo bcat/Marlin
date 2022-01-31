@@ -192,6 +192,10 @@
 < //#define REPORT_FAN_CHANGE   // Report the new fan speed when changed by M106 (and others)
 ---
 > #define REPORT_FAN_CHANGE     // Report the new fan speed when changed by M106 (and others)
+3802c3802
+<   //#define GCODE_QUOTED_STRINGS  // Support for quoted string parameters
+---
+>   #define GCODE_QUOTED_STRINGS    // Support for quoted string parameters
 3957c3957
 < //#define HOST_ACTION_COMMANDS
 ---
