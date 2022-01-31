@@ -54,6 +54,10 @@
 <   //#define PREHEAT_SHORTCUT_MENU_ITEM
 ---
 >   #define PREHEAT_SHORTCUT_MENU_ITEM
+1356c1356
+<   //#define SOUND_MENU_ITEM   // Add a mute option to the LCD menu
+---
+>   #define SOUND_MENU_ITEM   // Add a mute option to the LCD menu
 1377c1377
 <   //#define LCD_SET_PROGRESS_MANUALLY
 ---
