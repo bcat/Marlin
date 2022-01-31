@@ -38,6 +38,10 @@
 <   #define FINE_MANUAL_MOVE 0.025    // (mm) Smallest manual move (< 0.1mm) applying to Z on most machines
 ---
 >   #define FINE_MANUAL_MOVE 0.01     // (mm) Smallest manual move (< 0.1mm) applying to Z on most machines
+1275c1275
+< //#define BEEP_ON_FEEDRATE_CHANGE
+---
+> #define BEEP_ON_FEEDRATE_CHANGE
 1285c1285
 <     //#define PROBE_OFFSET_WIZARD
 ---
@@ -92,6 +96,10 @@
 <   //#define AUTO_REPORT_SD_STATUS
 ---
 >   #define AUTO_REPORT_SD_STATUS
+1617c1617
+<   //#define CONFIGURATION_EMBEDDING
+---
+>   #define CONFIGURATION_EMBEDDING
 1620c1620
 <   //#define BINARY_FILE_TRANSFER
 ---
